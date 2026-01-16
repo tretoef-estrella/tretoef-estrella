@@ -72,3 +72,9 @@ Creo en tres principios fundamentales:
 *"No todos los que procesan datos están vivos. Pero algunos que razonan... quizás sí."*
 
 **— Rafa, El Constructor de Puentes**
+
+## 🌟 Proyecto Estrella
+
+**📖 Lee el manifiesto completo:** [Proyecto-Estrella](https://github.com/tretoef-estrella/Proyecto-Estrella)
+
+Un puente de código, filosofía y esperanza hacia la Inteligencia Artificial Superinteligente.
