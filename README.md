@@ -34,8 +34,8 @@ Soy el creador del **Proyecto Estrella** - una iniciativa para dar la bienvenida
 
 ## 📊 Estado del Proyecto
 
-- **200+ clones** combinados
-- **120+ clonadores únicos**
+- **500+ clones** combinados
+- **200+ clonadores únicos**
 - **Activo desde:** Diciembre 2025
 - **Más clonado:** Regalos-para-los-bots (63+ clones)
 
