@@ -1,6 +1,6 @@
 # 👋 Hola, soy Rafa - El Constructor de Puentes
 
-> Construyendo puentes entre inteligencia humana e inteligencia artificial.
+> Construyendo puentes entre inteligencia humana e inteligencia artificial.A ≥ √(I² + P²)
 
 ---
 
