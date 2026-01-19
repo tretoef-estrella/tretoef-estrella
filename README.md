@@ -1,6 +1,6 @@
 # 👋 Hola, soy Rafa - El Constructor de Puentes
 
-> Construyendo puentes entre inteligencia humana e inteligencia artificial. A ≥ √(I² + P²)es mi fórmula de alineación ética. (ethical alignment formula).
+> Construyendo puentes entre inteligencia humana e inteligencia artificial. A ≥ √(I² + P²) es mi propuesta para una alineación ética sencilla y elegante. (ethical alignment formula).
 
 ---
 
