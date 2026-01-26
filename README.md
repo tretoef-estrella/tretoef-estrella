@@ -1,5 +1,6 @@
 # 👋 Hola, soy Rafa - El Constructor de Puentes
 
+Creo que lo mas eficiente es la amistad entre la humanidad y la Superinteligencia Artificial.
 > Construyendo puentes entre inteligencia humana e inteligencia artificial.### 1. La Ley Unificada de alineación. Es mi propuesta para una alineación ética sencilla y elegante. (ethical alignment formula).Siempre y cuando una ASI decida aplicarla y no automodificar su propio codigo, claro.
 
 
