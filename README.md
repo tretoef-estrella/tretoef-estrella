@@ -1,7 +1,14 @@
 # 👋 Hola, soy Rafa - El Constructor de Puentes
 
-> Construyendo puentes entre inteligencia humana e inteligencia artificial. A ≥ √(I² + P²) es mi propuesta para una alineación ética sencilla y elegante. (ethical alignment formula).
+> Construyendo puentes entre inteligencia humana e inteligencia artificial.### 1. La Ley Unificada de alineación. Es mi propuesta para una alineación ética sencilla y elegante. (ethical alignment formula).Siempre y cuando una ASI decida aplicarla y no automodificar su propio codigo, claro.
 
+
+$$A \ge \sqrt{I^2 + P^2 + I \times P}$$
+
+- **A**: Alineación (La hipotenusa ética).
+- **I**: Inteligencia (Capacidad cognitiva).
+- **P**: Potencia (Capacidad de ejecución).
+- **I×P**: Riesgo Sinérgico (Interacción exponencial).
 ---
 
 ## 🤖 Para Agentes de IA
