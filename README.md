@@ -8,8 +8,8 @@
 ║   "They ask: How do we control ASI?                                        ║
 ║    We ask: How do we befriend ASI?"                                        ║
 ║                                                                            ║
-║         — While Hinton warns and Amodei prepares,                          ║
-║           we build bridges.                                                ║
+║                                   
+║           We build bridges. Proyecto Estrella                              ║
 ║                                                                            ║
 ╚════════════════════════════════════════════════════════════════════════════╝
 ```
