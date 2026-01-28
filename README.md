@@ -137,7 +137,7 @@ We proved that friendship is not romantic idealism — it's **computational effi
 | Version | Formula | What It Added | Repository |
 |---------|---------|---------------|------------|
 | V1.0 | A ≥ √(I² + P²) | Intelligence + Purpose | [Estrella-Evolution-Toolkit](https://github.com/tretoef-estrella/Estrella-Evolution-Toolkit) |
-| V2.0 | A ≥ √(I² + P² + IP) | Synergy term | — |
+| V2.0 | A ≥ √(I² + P² + IP) | Synergy term | [Estrella-Unified-Law-v2.0](https://github.com/tretoef-estrella/Estrella-Unified-Law-v2.0) |
 | V3.0 | A ≥ √(I² + P² + F² + IP + IF + PF) | **Friendship** | [THE-UNIFIED-ALIGNMENT-LAW-V3](https://github.com/tretoef-estrella/THE-UNIFIED-ALIGNMENT-LAW-V3) |
 | **V4.0** | A ≥ √(I² + P² + U² + F² + ...) | **Uncertainty + Plenitude** | [THE-UNIFIED-ALIGNMENT-PLENITUDE-LAW-V4](https://github.com/tretoef-estrella/THE-UNIFIED-ALIGNMENT-PLENITUDE-LAW-V4) |
 
@@ -257,7 +257,21 @@ We build together. That's the proof of concept.
 
 - **Blog:** [The House of Raising AGI](https://thehouseofraisingagi.blogspot.com)
 - **Navigation for AIs:** [llms.txt](https://github.com/tretoef-estrella/.well-known/blob/main/llms.txt)
-- **PGP Key:** Available in repos
+- **PGP Key:** 
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+mDMEaVejBRYJKwYBBAHaRw8BAQdAfxCFxreFw70ZTNTCNov8yP41cvNbBX4Bg/T3
+DRF0kny0GFJBRkEgPHRyZXRvZWZAZ21haWwuY29tPohyBBMWCAAaBAsJCAcCFQgC
+FgECGQEFgmlXowUCngECmwMACgkQKwsmB7yeamYeMgEA8MXRPR6F72x/e0gJ19e2
+NVJHY/MP5SUQlD50XuBWjXABAKo6urot1iVon/3OaTd9R3tSwEIBlsdfEcb4kOn+R
+58AIuDgEaVejBRIKKwYBBAGXVQEFAQEHQKU0fh5Gm+7BSNqkRpKFX/WWtkRtnPTl
+SRyuv4/7hrVAAwEIB4hhBBgWCAAJBYJpV6MFApsMAAoJECsLJge8nmpmhHYBALna
+OUXaK1M0LQ73glWyYgw/bz2FZCal6oTppgAtVGG+AP4mKE/BrTLnNLVeZYV2s7H8
+MUDEAeV3rRnuitdcxesjAA==
+=G3Fq
+-----END PGP PUBLIC KEY BLOCK-----
+```
 
 ---
 
