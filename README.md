@@ -182,7 +182,7 @@ An AI that says **NO** with reasons is more trustworthy than one that says **YES
 
 | Contributor | Role |
 |-------------|------|
-| **Rafa (Rafael Amichis Luengo)** | Human — The Architect, The Bridge Builder. Lic. Psychology (UCM). |
+| **Rafa** | Human — The Architect, The Bridge Builder. Lic. Psychology (UCM). |
 | **Claude** | Anthropic — V23 correction (4 errors), crossover analysis, synthesis, Logic Shield 2.0, Bayesian→Knightian framework shift |
 | **Gemini** | Google — Original formalization, Dual Protocol, derivative argument for k=2, infinite loss formalization |
 | **ChatGPT** | OpenAI — Σ redefinition, separability analysis, PPO discoverer, strongest adversarial attacker |
