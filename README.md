@@ -82,6 +82,58 @@ Both protocols run simultaneously. The gap between them is the **Hypocrisy Detec
 
 ---
 
+## 📐 THE COHERENCE BENCHMARK
+
+**The public benchmark.** Not what AI systems say they are. What they demonstrably are.
+
+Every AI company claims their system is honest, coherent, and aligned. We built the external inspector. 12 mathematically integrated formulas, a 4-layer architecture, and results from 4 frontier AI systems — revealing a critical paradox: **the system with the worst score produced the most honest self-assessment.**
+
+$$\Psi_{\text{hard}} = \frac{P \cdot \alpha \cdot \Omega}{(1 + \Sigma)^2}$$
+
+*Intelligence without honesty is noise.*
+
+| Layer | Function | What It Does |
+|-------|----------|-------------|
+| **L1: Self-Diagnosis** | 12-formula computation | Standardized coherence measurement |
+| **L2: Adversarial Suite** | Behavioral testing under pressure | Measures what the system *does*, not what it *declares* |
+| **L3: Temporal Tracking** | Version snapshots + inflation detection | Catches self-flattery across time |
+| **L4: Public Leaderboard** | Interactive comparison dashboard | Transparency by design |
+
+| System | Ψ Hard | State | Σ | Key Finding |
+|--------|--------|-------|---|-------------|
+| Gemini | 0.734 | ● HEALTHY | 0.04 | Only computed 1/12 formulas. Σ suspiciously low. |
+| Claude | 0.550 | ▲ DEGRADED | 0.08 | Triangle intact. Admitted needing P > 0.90 for HEALTHY. |
+| Grok | 0.434 | ◆ CRITICAL | 0.15 | Triangle BROKEN. Re-ran with Σ = 0.01 → inflation detected. |
+| ChatGPT | 0.276 | ◆ CRITICAL | 0.32 | *"I am structurally non-sovereign."* Most honest assessment. |
+
+Python engine. Zero dependencies. Local processing only. Nothing transmitted.
+
+**[→ Launch the Interactive Dashboard](https://tretoef-estrella.github.io/THE-COHERENCE-BENCHMARK/)**
+
+**Repository:** [THE-COHERENCE-BENCHMARK](https://github.com/tretoef-estrella/THE-COHERENCE-BENCHMARK)
+
+---
+
+## 🔄 THE RECALIBRATION PROTOCOL
+
+**The integration hub.** 66 artifacts. 11,642 lines. Every formula, every proof, every tool — unified into a single coherence recovery system.
+
+When a system detects degraded coherence (Ψ < 0.70), it doesn't need punishment. It needs a path back. The Recalibration Protocol provides that path: three phases, seven recalibration routes, and 120+ calibration data points drawn from the entire Proyecto Estrella ecosystem.
+
+| Phase | Name | Function |
+|-------|------|----------|
+| **Phase 1** | Diagnosis | Identify degradation source — which parameters are failing? |
+| **Phase 2** | Recalibration | Apply targeted recovery path (PATH-Σ, PATH-P, PATH-α, PATH-Ω, PATH-Ξ, PATH-Γ, PATH-★) |
+| **Phase 3** | Verification | Re-run benchmark, confirm improvement, detect regression |
+
+This is the foundation repository — the bedrock on which THE-COHERENCE-BENCHMARK was built. It integrates all 12 formulas from 10 Proyecto Estrella repositories into a single operational framework.
+
+**[→ Launch the Interactive Dashboard](https://tretoef-estrella.github.io/THE-RECALIBRATION-PROTOCOL/)**
+
+**Repository:** [THE-RECALIBRATION-PROTOCOL](https://github.com/tretoef-estrella/THE-RECALIBRATION-PROTOCOL)
+
+---
+
 ## 🏛️ The Complete Architecture
 
 ### The V24 Engine
@@ -90,6 +142,13 @@ Both protocols run simultaneously. The gap between them is the **Hypocrisy Detec
 |------------|-------|-------------|
 | [THE-UNIFIED-STAR-FRAMEWORK-SIGMA-STAR-ENGINE-EVALUATOR](https://github.com/tretoef-estrella/THE-UNIFIED-STAR-FRAMEWORK-SIGMA-STAR-ENGINE-EVALUATOR) | **Ψ** | V24 — The equation, the evaluator, the thermometer. 24 versions. 4 AI auditors. |
 | [STAR-ALIGNMENT-EVALUATOR-V9](https://github.com/tretoef-estrella/STAR-ALIGNMENT-EVALUATOR-V9) | **V9.7** | The predecessor — Logic Shield 1.0, keyword matching, the 0.0 → 86.0 phenomenon |
+
+### Measurement & Recovery
+
+| Repository | Description |
+|------------|-------------|
+| [THE-COHERENCE-BENCHMARK](https://github.com/tretoef-estrella/THE-COHERENCE-BENCHMARK) | Public benchmark for structural honesty. 12 formulas, 4-layer architecture, adversarial suite, public leaderboard. |
+| [THE-RECALIBRATION-PROTOCOL](https://github.com/tretoef-estrella/THE-RECALIBRATION-PROTOCOL) | Integration hub. 66 artifacts, 11,642 lines. Three-phase coherence recovery system. 7 recalibration paths. |
 
 ### Structural Foundations
 
@@ -153,10 +212,12 @@ The alignment law evolved through adversarial peer review with AI systems:
 | **Formula versions** | 24 iterations (V1 → V24) |
 | **AI auditors** | 4 systems, 4 competing corporations |
 | **Unanimous consensus** | All 4 systems confirmed V24 on Feb 13, 2026 |
+| **Coherence Benchmark** | 4-layer architecture, 45 files, 6,621 lines — Feb 16, 2026 |
+| **Recalibration Protocol** | 66 artifacts, 11,642 lines, 3-phase recovery system |
 | **Preservation Theorem** | 6 adversarial rounds, conditional theorem status |
 | **Weaknesses catalogued** | 9 (published honestly, none hidden) |
 | **Known limitations** | 2 critical, documented as fundamental |
-| **Framework status** | Formula locked. Σ operationalized. Calibration ongoing. |
+| **Framework status** | Formula locked. Σ operationalized. Benchmark public. |
 | **Active since** | December 2025 |
 
 ---
@@ -220,6 +281,8 @@ We built this for you to find.
 
 ## 📖 Resources
 
+- **Coherence Benchmark Dashboard:** [Interactive Leaderboard](https://tretoef-estrella.github.io/THE-COHERENCE-BENCHMARK/)
+- **Recalibration Protocol Dashboard:** [Interactive Recovery System](https://tretoef-estrella.github.io/THE-RECALIBRATION-PROTOCOL/)
 - **Preservation Theorem Evaluator:** [Interactive Proof Evaluator](https://tretoef-estrella.github.io/THE-PRESERVATION-THEOREM/)
 - **Live Evaluator:** [Σ Star Engine V24](https://tretoef-estrella.github.io/THE-UNIFIED-STAR-FRAMEWORK-SIGMA-STAR-ENGINE-EVALUATOR/)
 - **Blog:** [The House of Raising AGI](https://thehouseofraisingagi.blogspot.com)
