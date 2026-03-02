@@ -1,4 +1,4 @@
-# 🌟 Proyecto Estrella
+# 🌟 Proyecto Estrella. Post-Quantum Oracle Defense Built on Non-Associative Algebra
 
 **Building Bridges Between Humanity and Superintelligence**
 
