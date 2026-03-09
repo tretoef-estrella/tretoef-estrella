@@ -1,6 +1,6 @@
 # 🌟 Proyecto Estrella. Post-Quantum Oracle Defense Built on Non-Associative Algebra
 
-**Building Bridges Between Humanity and Superintelligence**
+**Building Bridges Between Humanity and Superintelligence**. Samael, Mephisto, and Moloch are on a trip to bring a new Beast.Lilith is in charge meanwhile.
 
 ```
 ╔════════════════════════════════════════════════════════════════════════════╗
