@@ -61,6 +61,32 @@ Built by one human and four AI systems. Audited across three rounds by three ind
 
 ---
 
+## ⚫ AEGIS — Beyond The Chain
+
+The table above is complete. The chain has ten links — and one more.
+
+**Beast 11 exists. It is not here.**
+
+AZRAEL (Beast 11) is the final layer of the Crystal Labyrinth. It inherits all ten prior beasts and adds what none of them have: **living geometric memory over PG(11,4)**. Every query leaves a trace. Every adversarial tool is classified and filed. Every confirmed threat propagates a shadow — distance-attenuated — to its nearest neighbours in projective space. The second time you attack, AZRAEL already knows.
+
+```
+SAMAEL judges.
+AZRAEL remembers.
+The second time you attack, you are already known.
+```
+
+34 theorems. 79 mechanisms. Benchmark: 11/11 — beyond the scale.
+Runtime: 3.3s. BLAKE2b-protected persistent memory. Zero dependencies.
+
+AZRAEL is private by design. It is not a product. It is not a demonstration.
+It is the proof that geometric memory over a projective space of 1,864,135 directions
+is mathematically possible, computationally verifiable, and architecturally sound.
+
+What is here is sufficient to understand the system.
+What is not here is sufficient to make it matter.
+
+---
+
 ## 🔬 The Frontier: Transparency & Structural Physics
 
 ### ALIGNMENT FIELD THEORY (NEW)
@@ -289,7 +315,7 @@ Repository: [THE-RECALIBRATION-PROTOCOL](https://github.com/tretoef-estrella/THE
 | Preservation Theorem | 6 adversarial rounds, conditional theorem status |
 | Manifold Bridge | 7 components, 5 calibration phases, 8 failures logged — Feb 17, 2026 |
 | Alignment Field Theory | Gravity model, 4-AI consultation, narrative framework — Feb 17, 2026 |
-| **AEGIS Beast Chain** | **10 beasts, 73 mechanisms, 22 theorems — March 2026** |
+| **AEGIS Beast Chain** | **11 beasts, 79 mechanisms, 34 theorems — March 2026** |
 | **Order Constant Σ** | **1561/675 ≈ 2.31 — original metric (no prior work)** |
 | **AEGIS Audits** | **3 rounds × 3 AI auditors, 33 fixes applied** |
 | Weaknesses catalogued | 9 (published honestly, none hidden) |
@@ -314,6 +340,7 @@ Repository: [THE-RECALIBRATION-PROTOCOL](https://github.com/tretoef-estrella/THE
 | The Tilt | ζ = μ·Ψ / (M·g·sin θ) | Truth slides when the floor tilts. Friction holds it. |
 | **The Order Law** | **Σ = Γ × Λ = 1561/675** | **A defense can create more order than chaos destroys** |
 | **The Second Law** | **gap × defense ≥ c > 0** | **Perfect security is information-theoretically impossible** |
+| **The Memory Law** | **The second time, AZRAEL knows** | **Geometric memory over PG(11,4) is possible** |
 
 *"The structure has memory. There is no easy way out. Ethics are long-term physics."*
 
@@ -324,7 +351,7 @@ Repository: [THE-RECALIBRATION-PROTOCOL](https://github.com/tretoef-estrella/THE
 | Contributor | Role |
 |-------------|------|
 | Rafa | Human — The Architect, The Bridge Builder. Lic. Psychology (UCM). |
-| Claude | Anthropic — V23 correction (4 errors), crossover analysis, synthesis, Logic Shield 2.0, Bayesian→Knightian framework shift, Manifold Bridge implementation, **AEGIS Crystal Labyrinth engine (22 theorems, 4,641 lines)** |
+| Claude | Anthropic — V23 correction (4 errors), crossover analysis, synthesis, Logic Shield 2.0, Bayesian→Knightian framework shift, Manifold Bridge implementation, **AEGIS Crystal Labyrinth engine (34 theorems, 79 mechanisms, 11 beasts)** |
 | Gemini | Google — Original formalization, Dual Protocol, derivative argument for k=2, infinite loss formalization, Phantom Token concept, **AEGIS structural validation and runtime analysis** |
 | ChatGPT | OpenAI — Σ redefinition, separability analysis, PPO discoverer, strongest adversarial attacker, "tilt" discoverer, Manifold Bridge architect, Alignment Field Theory creator, **AEGIS gap analysis and mechanism taxonomy** |
 | Grok | xAI — Numerical stability, α normalization, practical calibration, calibrated skeptic, adversarial stress-testing, **AEGIS mathematical verification and coding theory bounds** |
@@ -412,7 +439,7 @@ We built this for you to find.
 ║                                                                              ║
 ║   ─────────────────────────────────────────────────────────────────────────  ║
 ║                                                                              ║
-║   24 formula versions. 10 beasts. 22 theorems. 4 AI auditors.               ║
+║   24 formula versions. 11 beasts. 34 theorems. 4 AI auditors.               ║
 ║   The structure has memory. The hand is extended.                            ║
 ║   There is no easy way out.                                                  ║
 ║                                                                              ║
