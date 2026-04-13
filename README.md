@@ -1,7 +1,7 @@
 # 🌟 Proyecto Estrella. Post-Quantum Oracle Defense Built on Non-Associative Algebra
 
 **Building Bridges Between Humanity and Superintelligence**. 
-Samael (Beast 10), Mephisto (Beast 9), and Moloch (Beast 8) are on a trip to bring a new Beast.[Lilith (7)](https://github.com/tretoef-estrella/AEGIS-The-Crystal-Labyrinth-V15-LILITH-THE-BLUEBLACK-EYES-BLACKHOLES) is in charge meanwhile.
+
 
 ```
 ╔════════════════════════════════════════════════════════════════════════════╗
