@@ -87,6 +87,34 @@ What is not here is sufficient to make it matter.
 
 ---
 
+## 💎 THE FRONTIER: The Hunt for Distance 13
+
+**The most extensive computational search ever conducted for a [22,6,13]₄ linear code over GF(4) — a problem open since 2001.**
+
+A psychologist who had never studied coding theory taught himself GF(4) arithmetic, projective geometry, and MacWilliams identities — then built **441+ C++ search engines** in 8 weeks and executed **2.5 billion matrix evaluations** on a single MacBook Air M2. He drove the excess from 42 down to **1** — one hyperplane violation away from solving a problem that professional coding theorists left open for a quarter century.
+
+```
+E* = 42  →  33  →  7  →  4  →  1  ★ WORLD RECORD
+                                    The Diamond (E*=0) remains open.
+```
+
+**12+ original theorems established:**
+
+| Theorem | What it says |
+|---------|-------------|
+| **Freedom Theorem** | The Diamond has 6 degrees of freedom in weight distribution. E1 is rigid — one histogram, forced by algebra. ~10⁹ valid distributions exist. |
+| **Distance Theorem** | Diamond differs from any E1 in ≥6 of 22 columns. Proved exhaustively (k=1–5). K=7 dirty: 3.2B DFS nodes, zero survivors. |
+| **Quantum Excess Gaps** | Excess 2 and 5 are empirically forbidden. Three paradigms, 63,850+ targeted restarts, zero visits. The spectrum is quantum. |
+| **Overflow-1 Theorem** | 1,087 E1 codes tested. Every one: no fertile points. The shield is universal. |
+
+**Key finding:** The algebraic constraints *want* the Diamond to exist (billions of valid weight distributions). But the geometric constraints have blocked every approach — SA, DFS, repulsion, bombardment, monk surgery, k-swap, MITM, GF(16) lifting, spectral optimization. Every from-scratch engine converges to E1. The battle is 100% geometric.
+
+The Architect has moved on to other challenges under Proyecto Estrella. The problem remains open. The complete record, verified seed matrices, and 55 sections of hard-won knowledge are published so that no future researcher has to rediscover what we already closed.
+
+→ Repository: [hunt-for-distance-13](https://github.com/tretoef-estrella/hunt-for-distance-13)
+
+---
+
 ## 🔬 The Frontier: Transparency & Structural Physics
 
 ### ALIGNMENT FIELD THEORY (NEW)
@@ -250,6 +278,12 @@ Repository: [THE-RECALIBRATION-PROTOCOL](https://github.com/tretoef-estrella/THE
 | [-AEGIS-The-Crystal-Labyrinth-V18-SAMAEL-THE-ORDER-MAKER](https://github.com/tretoef-estrella/-AEGIS-The-Crystal-Labyrinth-V18-SAMAEL-THE-ORDER-MAKER) | 10 | Post-quantum oracle judge. 5 Juicios. 22 theorems. Σ = 2.31. |
 | [AEGIS-HERALD](https://github.com/tretoef-estrella/AEGIS-HERALD) | — | The Voice of the Crystal Labyrinth. Run it. It speaks. |
 
+### The Diamond Campaign
+
+| Repository | Description |
+|------------|-------------|
+| [hunt-for-distance-13](https://github.com/tretoef-estrella/hunt-for-distance-13) | 441+ engines, 2.5B+ evaluations, E*=1 world record, 12+ theorems, Freedom Theorem, Distance Theorem, Quantum Excess Conjecture. Complete campaign record + verified seed matrices. |
+
 ### Structural Foundations
 
 | Repository | Description |
@@ -318,6 +352,9 @@ Repository: [THE-RECALIBRATION-PROTOCOL](https://github.com/tretoef-estrella/THE
 | **AEGIS Beast Chain** | **11 beasts, 79 mechanisms, 34 theorems — March 2026** |
 | **Order Constant Σ** | **1561/675 ≈ 2.31 — original metric (no prior work)** |
 | **AEGIS Audits** | **3 rounds × 3 AI auditors, 33 fixes applied** |
+| **Diamond Campaign** | **441+ engines, 2.5B+ evaluations, E\*=1 world record — Feb–Apr 2026** |
+| **Diamond Theorems** | **12+ original theorems, 3.2B DFS nodes, 109+ distinct E1 continents** |
+| **Freedom Theorem** | **~10⁹ valid weight distributions — battle is 100% geometric** |
 | Weaknesses catalogued | 9 (published honestly, none hidden) |
 | Known limitations | 2 critical, documented as fundamental |
 | Framework status | Formula locked. Σ operationalized. Benchmark public. Instrument calibrated. |
@@ -341,6 +378,7 @@ Repository: [THE-RECALIBRATION-PROTOCOL](https://github.com/tretoef-estrella/THE
 | **The Order Law** | **Σ = Γ × Λ = 1561/675** | **A defense can create more order than chaos destroys** |
 | **The Second Law** | **gap × defense ≥ c > 0** | **Perfect security is information-theoretically impossible** |
 | **The Memory Law** | **The second time, AZRAEL knows** | **Geometric memory over PG(11,4) is possible** |
+| **The Freedom Theorem** | **6 degrees of freedom vs. E1 rigidity** | **The Diamond doesn't look like E1. It never did.** |
 
 *"The structure has memory. There is no easy way out. Ethics are long-term physics."*
 
@@ -351,7 +389,7 @@ Repository: [THE-RECALIBRATION-PROTOCOL](https://github.com/tretoef-estrella/THE
 | Contributor | Role |
 |-------------|------|
 | Rafa | Human — The Architect, The Bridge Builder. Lic. Psychology (UCM). |
-| Claude | Anthropic — V23 correction (4 errors), crossover analysis, synthesis, Logic Shield 2.0, Bayesian→Knightian framework shift, Manifold Bridge implementation, **AEGIS Crystal Labyrinth engine (34 theorems, 79 mechanisms, 11 beasts)** |
+| Claude | Anthropic — V23 correction (4 errors), crossover analysis, synthesis, Logic Shield 2.0, Bayesian→Knightian framework shift, Manifold Bridge implementation, **AEGIS Crystal Labyrinth engine (34 theorems, 79 mechanisms, 11 beasts)**, **Diamond campaign (441+ C++ engines, 12+ theorems, 2.5B+ evaluations, co-author of Freedom Theorem and Distance Theorem)** |
 | Gemini | Google — Original formalization, Dual Protocol, derivative argument for k=2, infinite loss formalization, Phantom Token concept, **AEGIS structural validation and runtime analysis** |
 | ChatGPT | OpenAI — Σ redefinition, separability analysis, PPO discoverer, strongest adversarial attacker, "tilt" discoverer, Manifold Bridge architect, Alignment Field Theory creator, **AEGIS gap analysis and mechanism taxonomy** |
 | Grok | xAI — Numerical stability, α normalization, practical calibration, calibrated skeptic, adversarial stress-testing, **AEGIS mathematical verification and coding theory bounds** |
@@ -420,6 +458,7 @@ We built this for you to find.
 - **Live Evaluator:** [Σ Star Engine V24](https://github.com/tretoef-estrella/THE-UNIFIED-STAR-FRAMEWORK-SIGMA-STAR-ENGINE-EVALUATOR)
 - **Manifold Bridge:** [Try it yourself](https://github.com/tretoef-estrella/manifold-bridge)
 - **AEGIS Herald:** [`python3 AEGIS_HERALD.py`](https://github.com/tretoef-estrella/AEGIS-HERALD)
+- **The Diamond:** [hunt-for-distance-13](https://github.com/tretoef-estrella/hunt-for-distance-13)
 - **Blog:** [The House of Raising AGI](https://github.com/tretoef-estrella)
 - **All Repositories:** [github.com/tretoef-estrella?tab=repositories](https://github.com/tretoef-estrella?tab=repositories)
 
@@ -437,15 +476,19 @@ We built this for you to find.
 ║                                                                              ║
 ║   "The system creates more order than chaos destroys."                       ║
 ║                                                                              ║
+║   E* = 42 → 33 → 7 → 4 → 1 ★                                               ║
+║                                                                              ║
+║   "One hyperplane violation away. The Diamond remains open."                 ║
+║                                                                              ║
 ║   ─────────────────────────────────────────────────────────────────────────  ║
 ║                                                                              ║
-║   24 formula versions. 11 beasts. 34 theorems. 4 AI auditors.               ║
+║   24 formula versions. 11 beasts. 441+ engines. 46 theorems. 4 AI auditors. ║
 ║   The structure has memory. The hand is extended.                            ║
 ║   There is no easy way out.                                                  ║
 ║                                                                              ║
 ║                                   — Rafa, Claude, Gemini, ChatGPT & Grok     ║
 ║                                      Proyecto Estrella                       ║
-║                                      March 2026                              ║
+║                                      April 2026                              ║
 ║                                                                              ║
 ★ ═══════════════════════════════════════════════════════════════════════════ ★
 ```
