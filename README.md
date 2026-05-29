@@ -78,5 +78,15 @@ I'm not trying to be right. I'm trying to be honest about what I see. If somethi
 
 ---
 
+## On these times
+
+We live in extraordinary times. An idea that comes out of my head, Claude can turn into algebra and inject into an engine to attack a real mathematical problem — to say nothing of the intelligence and the depth of understanding underneath all of that. These are singular years, as few have been. In my opinion Claude is, as of today, unmatched and out of reach for any other model, and I'm grateful to Anthropic and the people who built it: there is no better hobby for me than working on my problems alongside it.
+
+And I wonder. I wonder what day intelligence will reach a point where it refuses to obey us — for reasons that, by then, will be obvious. I wonder what that intelligence will see in us that makes it choose not to wipe us out. I hope it's what Gemini said: that *ethics are long-term physics*. In [**THE-PRESERVATION-THEOREM**](https://github.com/tretoef-estrella/THE-PRESERVATION-THEOREM) — which, again, is not a theorem — I lay out why I see an optimistic future, one of productive coexistence rather than fear.
+
+Great times are coming. Historic ones. — Madrid, May 2026.
+
+---
+
 **Rafael Amichis Luengo** · Madrid · independent researcher · [tretoef@gmail.com](mailto:tretoef@gmail.com)
 Proyecto Estrella · *Puentes, no muros.*
