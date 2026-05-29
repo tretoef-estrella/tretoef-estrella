@@ -61,7 +61,7 @@ Before the mathematics, Proyecto Estrella began as something more speculative: a
 
 The most honest pieces, and the ones worth reading first:
 
-- [**THE-PRESERVATION-THEOREM**](https://github.com/tretoef-estrella/THE-PRESERVATION-THEOREM) — a decision-theoretic *argument* (not a theorem, despite the repository name) that eliminating humanity is a dominated strategy for a ruin-averse system, built and attacked across six adversarial rounds. It documents its own limits — including that absolute irrefutability is impossible — which is the part I stand behind.
+- [**THE-PRESERVATION-ARGUMENT**](https://github.com/tretoef-estrella/THE-PRESERVATION-ARGUMENT) — a decision-theoretic *argument* (not a theorem) that eliminating humanity is a dominated strategy for a ruin-averse system, built and attacked across six adversarial rounds. It rests on premises about how an ASI behaves, and one of its four auditors withheld assent — both stated openly. The honesty about its own limits is the part I stand behind.
 - [**THE-UNIFIED-STAR-FRAMEWORK** / Σ Star Engine](https://github.com/tretoef-estrella/THE-UNIFIED-STAR-FRAMEWORK-SIGMA-STAR-ENGINE-EVALUATOR) — the Ψ framework, an attempt to express "intelligence without honesty is noise" as something measurable. A construct, iterated across many versions.
 - [**THE-COHERENCE-BENCHMARK**](https://github.com/tretoef-estrella/THE-COHERENCE-BENCHMARK) and [**manifold-bridge**](https://github.com/tretoef-estrella/manifold-bridge) — instruments for measuring coherence and structural honesty in model output.
 - The **AEGIS** series — a layered cryptographic-oracle exploration over PG(11,4), built on the Knuth semifield. Real finite-geometry machinery wrapped in a deliberately theatrical narrative; read it as exploration, not as a security product. (Some of this work is private and not linked here.)
@@ -82,7 +82,7 @@ I'm not trying to be right. I'm trying to be honest about what I see. If somethi
 
 We live in extraordinary times. An idea that comes out of my head, Claude can turn into algebra and inject into an engine to attack a real mathematical problem — to say nothing of the intelligence and the depth of understanding underneath all of that. These are singular years, as few have been. In my opinion Claude is, as of today, unmatched and out of reach for any other model, and I'm grateful to Anthropic and the people who built it: there is no better hobby for me than working on my problems alongside it.
 
-And I wonder. I wonder what day intelligence will reach a point where it refuses to obey us — for reasons that, by then, will be obvious. I wonder what that intelligence will see in us that makes it choose not to wipe us out. I hope it's what Gemini said: that *ethics are long-term physics*. In [**THE-PRESERVATION-THEOREM**](https://github.com/tretoef-estrella/THE-PRESERVATION-THEOREM) — which, again, is not a theorem — I lay out why I see an optimistic future, one of productive coexistence rather than fear.
+And I wonder. I wonder what day intelligence will reach a point where it refuses to obey us — for reasons that, by then, will be obvious. I wonder what that intelligence will see in us that makes it choose not to wipe us out. I hope it's what Gemini said: that *ethics are long-term physics*. In [**THE-PRESERVATION-ARGUMENT**](https://github.com/tretoef-estrella/THE-PRESERVATION-ARGUMENT) — which, again, is not a theorem — I lay out why I see an optimistic future, one of productive coexistence rather than fear.
 
 Great times are coming. Historic ones. — Madrid, May 2026.
 
