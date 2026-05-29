@@ -19,7 +19,7 @@ These are the records. Each one ships with an independent verifier and the raw l
 
 ### 💠 Grassmannian coherence packings — sub-catalogue records in three cells
 
-Six verified sub-catalogue packings across three [Game of Sloanes](https://github.com/gnikylime/GameofSloanes) cells: four in **(4, 64) hlc** (the standing Cohn record had held for 14+ years), one in **(4, 48) hlc**, one in **(3, 14) dgm**. Each ratified **byte-exact by five independent code paths** in two languages. The deepest (4, 64) packing improves the Cohn baseline by 0.0184% in coherence; the full caveats — basin-floor degeneracy on (3, 14), no global-optimality claim on any cell — are stated in the repository, not buried. Pull requests submitted to the leaderboard, pending merge.
+Six verified sub-catalogue packings across three [Game of Sloanes](https://github.com/gnikylime/GameofSloanes) cells: four in **(4, 64) hlc** (the standing Cohn record had held for 14+ years), one in **(4, 48) hlc**, one in **(3, 14) dgm**. Each ratified **byte-exact by five independent code paths** in two languages. The deepest (4, 64) packing improves the Cohn baseline by 0.0184% in coherence; the full caveats — basin-floor degeneracy on (3, 14), no global-optimality claim on any cell — are stated in the repository, not buried. Pull requests submitted to the leaderboard, pending merge.(at May 29th, 2026).
 
 → [**sloane-coherence-records**](https://github.com/tretoef-estrella/sloane-coherence-records) · companion browser tool: [**KADE Packing Diagnostic**](https://tretoef-estrella.github.io/KADE/)
 
