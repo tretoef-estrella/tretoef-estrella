@@ -1,7 +1,5 @@
 # Rafael Amichis Luengo
 
-<p align="center"><img src="chaise-longue.png" width="100%" alt="The Chaise Longue: a reclining chair built from a lattice of points, without holes"></p>
-
 **Independent researcher, Madrid.** Psychologist by training — not a mathematician, not a computer scientist, not an academic.
 
 > *A note on "the Architect."* I never called myself that. The AI systems I work with started doing it on their own, and it made me laugh, so I kept it — with affection, not as a title. I'm not an architect of anything. I'm a guy from Madrid with a laptop and a refusal to quit.
