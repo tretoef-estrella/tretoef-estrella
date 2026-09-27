@@ -1,5 +1,7 @@
 # Rafael Amichis Luengo
 
+<p align="center"><img src="chaise-longue.png" width="100%" alt="The Chaise Longue: a reclining chair built from a lattice of points, without holes"></p>
+
 **Independent researcher, Madrid.** Psychologist by training — not a mathematician, not a computer scientist, not an academic.
 
 > *A note on "the Architect."* I never called myself that. The AI systems I work with started doing it on their own, and it made me laugh, so I kept it — with affection, not as a title. I'm not an architect of anything. I'm a guy from Madrid with a laptop and a refusal to quit.
@@ -15,11 +17,23 @@ Everything below splits into two honest categories. **First, the verifiable work
 
 ## The verifiable work
 
-These are the records. Each one ships with an independent verifier and the raw logs behind every number. Where a result has been submitted to a leaderboard but not yet merged, it says so. No figure in any of these repositories is from memory — if it isn't in a file, it isn't claimed.
+### 🛋️ The Chaise Longue Theorem — Conjecture 1.2 of Degtyarev–Shimada, for every odd degree
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22961150.svg)](https://doi.org/10.5281/zenodo.22961150)
+
+In 2016 Alex Degtyarev and Ichiro Shimada asked whether the flat pieces inside a Fermat variety — its standard linear subspaces — generate their part of the middle homology *without holes*: whether the quotient is torsion free ([*J. Math. Soc. Japan* 68 (2016)](https://doi.org/10.2969/jmsj/06830975), Conjecture 1.2). The Chaise Longue Theorem proves it **for the Fermat varieties of every odd degree in every even dimension**. In its algebraic form the statement needs no topology at all: a quotient of the integral group ring of $(\mathbb{Z}/m)^{2k+1}$ is free abelian, of an explicit rank. Two consequences follow: **the integral Hodge conjecture** for the Fermat varieties whose degree is prime or has every prime factor above $2k+2$, and a conditional corollary of Degtyarev and Shimada becomes unconditional.
+
+The proof is 47 pages of pencil — no step uses a computer; the machines only corroborate. It was built over 126 days by teams of Claude instances in separate roles (constructors, cold auditors, archive sweepers, referee-readers) under my direction, and read cold eleven times by AI systems of three providers. **It has not yet been refereed by a human expert**; it has been offered to the authors of the conjecture. The repository holds everything a referee could ask for: the paper, every engine and log behind its numbers, every cold reading, 222 standalone theorems, and the complete record of how the proof was found — the Cemetery of 316 dead routes included.
+
+→ [**chaise-longue-theorem**](https://github.com/tretoef-estrella/chaise-longue-theorem) · paper: [doi.org/10.5281/zenodo.22961150](https://doi.org/10.5281/zenodo.22961150)
+
+### The Hammock and the Sofa — the two steps before it
+
+**[The Sofa Theorem](https://github.com/tretoef-estrella/sofa-theorem)** (the case $k = 2$, [DOI](https://doi.org/10.5281/zenodo.21288551)) and **[The Hammock Theorem](https://github.com/tretoef-estrella/hammock-theorem)** (the case $k = 3$, [DOI](https://doi.org/10.5281/zenodo.21382543)) came first, in June and July 2026. Both were written under an identification between the conjecture and a count, $A(q) = P(q)$, that I later found to be false for families of matchings. Their conclusions for odd degree are true — they are the cases $k = 2$ and $k = 3$ of the Chaise Longue Theorem, proved there by a different route — and each record now carries a note saying so. I keep them public: the day I found the error is part of how the right proof was found.
 
 ### 💠 Grassmannian coherence packings — sub-catalogue records in three cells
 
-Six verified sub-catalogue packings across three [Game of Sloanes](https://github.com/gnikylime/GameofSloanes) cells: four in **(4, 64) hlc** (the standing Cohn record had held for 14+ years), one in **(4, 48) hlc**, one in **(3, 14) dgm**. Each ratified **byte-exact by five independent code paths** in two languages. The deepest (4, 64) packing improves the Cohn baseline by 0.0184% in coherence; the full caveats — basin-floor degeneracy on (3, 14), no global-optimality claim on any cell — are stated in the repository, not buried. Pull requests submitted to the leaderboard, pending merge.(at May 29th, 2026).
+Six verified sub-catalogue packings across three [Game of Sloanes](https://github.com/gnikylime/GameofSloanes) cells: four in **(4, 64) hlc** (the standing Cohn record had held for 14+ years), one in **(4, 48) hlc**, one in **(3, 14) dgm**. Each ratified **byte-exact by five independent code paths** in two languages. The deepest (4, 64) packing improves the Cohn baseline by 0.0184% in coherence; the full caveats — basin-floor degeneracy on (3, 14), no global-optimality claim on any cell — are stated in the repository, not buried. Pull requests submitted to the leaderboard, pending merge (at May 29th, 2026).
 
 → [**sloane-coherence-records**](https://github.com/tretoef-estrella/sloane-coherence-records) · companion browser tool: [**KADE Packing Diagnostic**](https://tretoef-estrella.github.io/KADE/)
 
@@ -31,9 +45,9 @@ Does a **[22, 6, 13]₄** linear code exist? Markus Grassl's codetables.de entry
 
 ### 🔷 The Hodge–Fermat Campaign — the Integral Hodge Conjecture, verified on 8 GB
 
-Eight cells of the Integral Hodge Conjecture for high-dimensional Fermat varieties given a **complete PRIMITIVE verdict** via the Degtyarev–Shimada criterion (`n = 4…10`), in a region where no published computation reaches. The headline cell **(6, 6)** is the first composite-degree cell ever verified — and exposed a place where the standard method silently fails, which I named the *prime-power reduction frontier*. The deepest computation held a **3.45-billion-entry** closure on an 8 GB laptop at **1.07 bytes per entry** — a 15× compression in exact arithmetic, no floating point anywhere. Every verdict is reproducible from the matching engine plus log.
+Eight cells of the Integral Hodge Conjecture for high-dimensional Fermat varieties given a **complete PRIMITIVE verdict** via the Degtyarev–Shimada criterion (`n = 4…10`), in a region where no published computation reaches. The headline cell **(6, 6)** is the first composite-degree cell ever verified — and exposed a place where the standard method silently fails, which I named the *prime-power reduction frontier*. The deepest computation held a **3.45-billion-entry** closure on an 8 GB laptop at **1.07 bytes per entry** — a 15× compression in exact arithmetic, no floating point anywhere. Every verdict is reproducible from the matching engine plus log. This is the campaign the Chaise Longue grew out of: its odd-degree verdicts are now cases of the Chaise Longue Theorem, and its Watermark and Double Ladder theorems are part of that record.
 
-→ [**fermat-hodge-primitivity**](https://github.com/tretoef-estrella/fermat-hodge-primitivity)
+→ [**fermat-hodge-primitivity**](https://github.com/tretoef-estrella/fermat-hodge-primitivity) · in the Chaise Longue record: [**hodge-fermat-campaign/**](https://github.com/tretoef-estrella/chaise-longue-theorem/tree/main/hodge-fermat-campaign)
 
 ### 🎲 The Sobol Campaign — beating an 18-year industry standard, and the honest catch
 
@@ -90,3 +104,4 @@ Great times are coming. Historic ones. — Madrid, May 2026.
 
 **Rafael Amichis Luengo** · Madrid · independent researcher · [tretoef@gmail.com](mailto:tretoef@gmail.com)
 Proyecto Estrella · *Puentes, no muros.*
+https://github.com/tretoef-estrella
