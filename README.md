@@ -4,7 +4,7 @@
 
 > *A note on "the Architect."* I never called myself that. The AI systems I work with started doing it on their own, and it made me laugh, so I kept it — with affection, not as a title. I'm not an architect of anything. I'm a guy from Madrid with a laptop and a refusal to quit.
 
-In early 2026 I started attacking open problems in coding theory, frame theory, and algebraic geometry from a single MacBook Air, one thread, throttled to a quarter of its power, in live collaboration with several AI systems. I taught myself the mathematics each problem demanded, the way a builder learns physics: because the wall in front of me required it.
+In early 2026 I started attacking open problems in coding theory, frame theory, algebraic geometry and combinatorics from a single MacBook Air, one thread, throttled to a quarter of its power, in live collaboration with several AI systems. I taught myself the mathematics each problem demanded, the way a builder learns physics: because the wall in front of me required it.
 
 > *"Ethics are long-term physics. A lie decays. The truth persists. The structure has memory."*
 > — Gemini, the day we were talking about what ethics a future ASI might have, if it had any at all. The line stayed with me.
@@ -15,17 +15,35 @@ Everything below splits into two honest categories. **First, the verifiable work
 
 ## The verifiable work
 
-### 🛋️ The Chaise Longue Theorem — Conjecture 1.2 of Degtyarev–Shimada, for every odd degree
+### 🛋️ The Chaise Longue Theorem — Conjecture 1.2 of Degtyarev–Shimada, for every degree
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22961150.svg)](https://doi.org/10.5281/zenodo.22961150)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22961150.svg)](https://doi.org/10.5281/zenodo.22961150) [![Lean certificate](https://img.shields.io/badge/Lean_certificate-10.5281%2Fzenodo.23129677-blue.svg)](https://doi.org/10.5281/zenodo.23129677)
 
-In 2016 Alex Degtyarev and Ichiro Shimada asked whether the flat pieces inside a Fermat variety — its standard linear subspaces — generate their part of the middle homology *without holes*: whether the quotient is torsion free ([*J. Math. Soc. Japan* 68 (2016)](https://doi.org/10.2969/jmsj/06830975), Conjecture 1.2). The Chaise Longue Theorem proves it **for the Fermat varieties of every odd degree in every even dimension**. In its algebraic form the statement needs no topology at all: a quotient of the integral group ring of $(\mathbb{Z}/m)^{2k+1}$ is free abelian, of an explicit rank. Two consequences follow: **the integral Hodge conjecture** for the Fermat varieties whose degree is prime or has every prime factor above $2k+2$, and a conditional corollary of Degtyarev and Shimada becomes unconditional.
+In 2016 Alex Degtyarev and Ichiro Shimada asked whether the flat pieces inside a Fermat variety — its standard linear subspaces — generate their part of the middle homology *without holes*: whether the quotient is torsion free ([*J. Math. Soc. Japan* 68 (2016)](https://doi.org/10.2969/jmsj/06830975), Conjecture 1.2). Before this work it was known for surfaces and in a finite table of cells checked by computer. The Chaise Longue Theorem proves it **for the Fermat varieties of every degree $m \ge 3$ in every even dimension**. In its algebraic form the statement needs no topology at all: a quotient of the integral group ring of $(\mathbb{Z}/m)^{2k+1}$ is free abelian, of an explicit rank. Consequences: **the integral Hodge conjecture** for the Fermat varieties whose degree is prime, equal to $4$, or prime to $(n+1)!$ — for the quartics of dimension at least $8$ this is new, to our knowledge — and a conditional corollary of Degtyarev and Shimada becomes unconditional.
 
-The proof is 47 pages of pencil — no step uses a computer; the machines only corroborate. It was built over 126 days by teams of Claude instances in separate roles (constructors, cold auditors, archive sweepers, referee-readers) under my direction, and read cold eleven times by AI systems of three providers. **It has not yet been refereed by a human expert**; it has been offered to the authors of the conjecture. The repository holds everything a referee could ask for: the paper, every engine and log behind its numbers, every cold reading, 222 standalone theorems, and the complete record of how the proof was found — the Cemetery of 316 dead routes included.
+The proof is written to be checked with pencil and paper; no step uses a computer. **Its algebraic core is verified in Lean 4 for every degree**: 233 files, 41 243 lines, 1 859 theorems, no `sorry`, only the three standard axioms. The proof quotes two topological results and does not re-prove them: Pham's theorem and the intersection numbers of Degtyarev and Shimada. It was built by teams of Claude instances in separate roles (constructors, cold auditors, archive sweepers, referee-readers) under my direction, and read cold seventeen times by AI systems of three providers. **It has not yet been refereed by a human expert**; it has been sent to the authors of the conjecture. The repository holds everything a referee could ask for: the paper, the Lean proof, every engine and log behind its numbers, every cold reading, 222 standalone theorems, and the complete record of how the proof was found — the Cemetery of 316 dead routes included.
 
-→ [**chaise-longue-theorem**](https://github.com/tretoef-estrella/chaise-longue-theorem) · paper: [doi.org/10.5281/zenodo.22961150](https://doi.org/10.5281/zenodo.22961150)
+→ [**chaise-longue-theorem**](https://github.com/tretoef-estrella/chaise-longue-theorem) · paper: [doi.org/10.5281/zenodo.22961150](https://doi.org/10.5281/zenodo.22961150) · Lean: [doi.org/10.5281/zenodo.23129677](https://doi.org/10.5281/zenodo.23129677)
 
-### The Hammock and the Sofa — the two steps before it
+### 🧊 The Dancing Sand Theorem — the 2-part of the sandpile group of the hypercube, for every n
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23188298-blue.svg)](https://doi.org/10.5281/zenodo.23188298) [![Lean certificate](https://img.shields.io/badge/Lean_certificate-10.5281%2Fzenodo.23296707-blue.svg)](https://doi.org/10.5281/zenodo.23296707) [![Hexagon](https://img.shields.io/badge/Hexagon-2610.00205-6f42c1.svg)](https://hexagonmath.org/2610.00205)
+
+Put grains of sand on the corners of the $n$-dimensional cube; a corner with as many grains as neighbours topples. The stable configurations that keep coming back form a finite abelian group, the sandpile group $K(Q_n)$. In 2003 Hua Bai determined every odd part of it and wrote that the 2-part was «still unknown». It stayed open: Chandler, Sin and Xiang (2017) had «no conjecture about its exact structure»; Gao, Marx-Kuo, McDonald and Yuen (*Comm. Algebra*, 2024) found its $n-1$ largest cyclic factors and wrote that the complete structure «still seems out of reach». **The Dancing Sand Theorem gives the whole 2-part, for every $n$, by an explicit rule** — read off the binary digits, with no Smith form to compute. On the way it proves Gao et al.'s Conjectures 4.14 and 5.4, and a fold law that gives the whole sandpile group of the folded cube.
+
+**The entire proof is verified in Lean 4, with nothing cited**: 420 files, 61 285 lines, no `sorry`, only the three standard axioms, and GitHub's own machines build it from the published files. Read cold thirteen times by AI readers. **Not yet refereed by a human expert.**
+
+→ [**dancing-sand-theorem**](https://github.com/tretoef-estrella/dancing-sand-theorem) · paper: [doi.org/10.5281/zenodo.23188298](https://doi.org/10.5281/zenodo.23188298) · Hexagon: [hexagon:2610.00205](https://hexagonmath.org/2610.00205) · Lean: [doi.org/10.5281/zenodo.23296707](https://doi.org/10.5281/zenodo.23296707)
+
+### 🔷 The Watermark and Double Ladder Theorems — Shioda's question of 1987
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23062529.svg)](https://doi.org/10.5281/zenodo.23062529)
+
+The Fermat surface of degree $m$ contains $3m^2$ lines. For prime $m$, Tetsuji Shioda asked in 1987 whether the Néron–Severi lattice, which these lines span, has discriminant $m^{3(m-3)^2}$; Schütt, Shioda and van Luijk confirmed it by computer for $m \le 81$. **The Watermark Theorem proves it for every prime $m \ge 5$, and the Double Ladder Theorem gives the structure of the discriminant group**, $(\mathbb{Z}/m)^{3m^2-24m+59} \times (\mathbb{Z}/m^2)^{3m-16}$ for $m \ge 7$. Both are verified in Lean 4. A sequel, [*The Watermark in Every Even Dimension*](https://doi.org/10.5281/zenodo.23091045), describes the discriminant of the lattice of integral Hodge classes of every Fermat variety of prime degree. Not yet refereed by a human expert.
+
+→ [**watermark-theorem**](https://github.com/tretoef-estrella/watermark-theorem)
+
+### The Hammock and the Sofa — the two steps before the Chaise Longue
 
 **[The Sofa Theorem](https://github.com/tretoef-estrella/sofa-theorem)** (the case $k = 2$, [DOI](https://doi.org/10.5281/zenodo.21288551)) and **[The Hammock Theorem](https://github.com/tretoef-estrella/hammock-theorem)** (the case $k = 3$, [DOI](https://doi.org/10.5281/zenodo.21382543)) came first, in June and July 2026. Both were written under an identification between the conjecture and a count, $A(q) = P(q)$, that I later found to be false for families of matchings. Their conclusions for odd degree are true — they are the cases $k = 2$ and $k = 3$ of the Chaise Longue Theorem, proved there by a different route — and each record now carries a note saying so. I keep them public: the day I found the error is part of how the right proof was found.
 
@@ -41,9 +59,9 @@ Does a **[22, 6, 13]₄** linear code exist? Markus Grassl's codetables.de entry
 
 → [**HUNT-FOR-DISTANCE-13**](https://github.com/tretoef-estrella/HUNT-FOR-DISTANCE-13)
 
-### 🔷 The Hodge–Fermat Campaign — the Integral Hodge Conjecture, verified on 8 GB
+### 🔶 The Hodge–Fermat Campaign — the Integral Hodge Conjecture, verified on 8 GB
 
-Eight cells of the Integral Hodge Conjecture for high-dimensional Fermat varieties given a **complete PRIMITIVE verdict** via the Degtyarev–Shimada criterion (`n = 4…10`), in a region where no published computation reaches. The headline cell **(6, 6)** is the first composite-degree cell ever verified — and exposed a place where the standard method silently fails, which I named the *prime-power reduction frontier*. The deepest computation held a **3.45-billion-entry** closure on an 8 GB laptop at **1.07 bytes per entry** — a 15× compression in exact arithmetic, no floating point anywhere. Every verdict is reproducible from the matching engine plus log. This is the campaign the Chaise Longue grew out of: its odd-degree verdicts are now cases of the Chaise Longue Theorem, and its Watermark and Double Ladder theorems are part of that record.
+Eight cells of the Integral Hodge Conjecture for high-dimensional Fermat varieties given a **complete PRIMITIVE verdict** via the Degtyarev–Shimada criterion (`n = 4…10`), in a region where no published computation reaches. The headline cell **(6, 6)** is the first composite-degree cell ever verified — and exposed a place where the standard method silently fails, which I named the *prime-power reduction frontier*. The deepest computation held a **3.45-billion-entry** closure on an 8 GB laptop at **1.07 bytes per entry** — a 15× compression in exact arithmetic, no floating point anywhere. Every verdict is reproducible from the matching engine plus log. This is the campaign the Chaise Longue grew out of: every one of its verdicts, the composite cell (6, 6) included, is now a case of the Chaise Longue Theorem, and the Watermark and Double Ladder theorems came out of it.
 
 → [**fermat-hodge-primitivity**](https://github.com/tretoef-estrella/fermat-hodge-primitivity) · in the Chaise Longue record: [**hodge-fermat-campaign/**](https://github.com/tretoef-estrella/chaise-longue-theorem/tree/main/hodge-fermat-campaign)
 
@@ -59,7 +77,7 @@ Eight cells of the Integral Hodge Conjecture for high-dimensional Fermat varieti
 
 I'm a psychologist, and I think in physical intuition, not abstract notation: engines, mowers, carburettors, harvesters, an ancient analog computer. The operating principle of every campaign is that **a metaphor is not encouragement — it is an architecture specification to be measured.** A sweep through engine types is a sweep through computational architectures; each one gets built, gets run, and gets measured. Some flew. Many died — and the dead ones, measured to the bottom, are as much a part of the record as the survivors, because they map exactly where the wall is.
 
-The engines carry deliberately absurd names — *Aquiles*, *Boagrius*, *ROSETTA STAR*, *DOBERMAN*, *TOGORDOELGRANGRASIENTOESELREYQUEGANALENTO*. This is a working discipline, not decoration: **a ridiculous name is not allowed to survive a mediocre engine.** A name I'd be embarrassed to put in a record forces the work under it to be good. When an engine sets a record, its name goes into the record without apology.
+The engines carry deliberately absurd names — *Aquiles*, *Boagrius*, *ROSETTA STAR*, *DOBERMAN*. This is a working discipline, not decoration: **a ridiculous name is not allowed to survive a mediocre engine.** A name I'd be embarrassed to put in a record forces the work under it to be good. When an engine sets a record, its name goes into the record without apology.
 
 The method underneath all of it is the same: execute first, opine second; numbers from logs only; and never accept a wall as permanent. And I publish every dead end — not as a confession, but with pride. I don't call them failures, because they aren't: each one is what let me take the next step, and the map of where the walls are is worth exactly as much as the records. A campaign that hides its dead veins isn't science, it's advertising. I coordinate several AI systems as co-creators and auditors — Claude (Anthropic) as primary engine, with Gemini, ChatGPT and Grok for independent review — but I arbitrate every decision, set every hypothesis, and run every job myself.
 
